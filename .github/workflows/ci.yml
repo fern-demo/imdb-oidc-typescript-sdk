@@ -65,7 +65,9 @@ jobs:
 
       - name: Publish to npm
         run: |
-          alias publish='npx -y npm@latest publish' # use latest npm to ensure OIDC support
+          publish() {  # use latest npm to ensure OIDC support
+            npx -y npm@latest publish "$@"
+          }
           if [[ ${GITHUB_REF} == *alpha* ]]; then
             publish --access public --tag alpha
           elif [[ ${GITHUB_REF} == *beta* ]]; then
