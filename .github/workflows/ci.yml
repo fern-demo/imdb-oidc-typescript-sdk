@@ -57,8 +57,10 @@ jobs:
       # Ensure npm 11.5.1 or later is installed for OIDC support
       - name: Update npm
         run: |
+          node -v
           npm -v
           npm install -g npm@latest
+          node -v
           npm -v
 
       - name: Install pnpm
