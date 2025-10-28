@@ -22,7 +22,8 @@ export class FernDemoApiClient {
                 {
                     "X-Fern-Language": "JavaScript",
                     "X-Fern-SDK-Name": "@fern-demo/imdb-typescript-sdk",
-                    "X-Fern-SDK-Version": "0.0.28",
+                    "X-Fern-SDK-Version": "0.0.29",
+                    "User-Agent": "@fern-demo/imdb-typescript-sdk/0.0.29",
                     "X-Fern-Runtime": core.RUNTIME.type,
                     "X-Fern-Runtime-Version": core.RUNTIME.version,
                 },
