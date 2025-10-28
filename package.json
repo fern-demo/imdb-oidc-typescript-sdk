@@ -1,6 +1,6 @@
 {
     "name": "@fern-demo/imdb-typescript-sdk",
-    "version": "0.0.26",
+    "version": "0.0.27",
     "private": false,
     "repository": "github:fern-demo/imdb-oidc-typescript-sdk",
     "type": "commonjs",
